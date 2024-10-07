@@ -39,8 +39,7 @@ How MetaCost is implemented:
 - Estimating class probabilities: After training, each example in the original dataset is run through the trained models to estimate the probability of belonging to each class. If the learning algorithm outputs probabilities, those are used; otherwise, MetaCost assumes a probability of 1 for the predicted class and 0 for others.
 - Incorporating misclassification costs: Using the estimated probabilities and a misclassification cost matrix, MetaCost calculates the cost of assigning each example to different classes.
 - Updating class labels: The class label for each example is updated to the one with the lowest misclassification cost.
-
-Final model training: After updating the labels, a final model is trained on the relabeled dataset and used for predictions.
+- Final model training: After updating the labels, a final model is trained on the relabeled dataset and used for predictions.
 3. Pseudocode
 ```pseudocode
 for i in range(m):
