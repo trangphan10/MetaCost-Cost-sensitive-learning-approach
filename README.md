@@ -1,5 +1,7 @@
 ﻿# MetaCost-Cost-sensitive-learning-approach
+ 
 1. What is Cost-sensitive learning?
+
 **Definition**:
 
 - A type of data mining, consider misclassification costs to enhance high accuracy
