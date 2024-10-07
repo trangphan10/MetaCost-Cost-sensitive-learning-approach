@@ -35,6 +35,7 @@ Assume that C(0,0) = C(1,1) = 1
 - p is the boolean value represent for checking whether L produces distribution probability when applying L to S
 - q is the boolean value stand for checking whether all resamples utilize x examples2.
 2. Problem
+  
 How MetaCost is implemented:
 - Resampling the data: MetaCost generates multiple resamples from the original training data. Each resample is a random subset of the data.
 - Training multiple models: For each resample, a separate model is trained using a learning algorithm (e.g., decision trees, logistic regression).
